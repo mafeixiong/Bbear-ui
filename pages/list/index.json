@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "List 列表",
+  "usingComponents": {
+    "b-cell-group": "/components/cell-group/index",
+    "b-cell": "/components/cell/index",
+    "b-panel": "/components/panel/index"
+  }
+}

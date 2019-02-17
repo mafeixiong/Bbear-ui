@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "tag",
+  "usingComponents": {
+    "b-tag": "/components/tag/index"
+  }
+}

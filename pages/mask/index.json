@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "b-button": "/components/button/index",
+    "b-mask": "/components/mask/index"
+  }
+}

@@ -1,0 +1,42 @@
+<!-- <view class="container">
+  <view class="ui-item item1" hover-class="ui-active">1</view>
+  <view class="ui-item item2" hover-class="ui-active">2</view>
+  <view class="ui-item item3" hover-class="ui-active">3</view>
+  <view class="ui-item item4" hover-class="ui-active">4</view>
+  <view class="ui-item item5" hover-class="ui-active">5</view>
+  <view class="ui-item item6" hover-class="ui-active">6</view>
+</view> -->
+<view class='container'>
+  <view class='header'>
+    <text class='iconfont icon-xiong'></text>
+    <text class='name'>Bbear-ui</text>
+  </view>
+  <view>
+    <b-panel title="布局">
+      <b-cell-group>
+        <b-cell title="Panel 面板" isLink url="/pages/panel/index"></b-cell>
+        <b-cell title="List 列表" isLink url="/pages/list/index"></b-cell>
+      </b-cell-group>
+    </b-panel>
+
+    <b-panel title="基础组件">
+      <b-cell-group>
+        <b-cell title="Button 按钮" isLink url="/pages/button/index"></b-cell>
+        <b-cell title="Icon 图标" isLink></b-cell>
+      </b-cell-group>
+    </b-panel>
+
+    <b-panel title="操作反馈">
+      <b-cell-group>
+        <b-cell title="Mask 遮罩" isLink url="/pages/mask/index"></b-cell>
+        <b-cell title="Message 全局提醒" isLink url="/pages/message/index"></b-cell>
+      </b-cell-group>
+    </b-panel>
+
+    <b-panel title="视图">
+      <b-cell-group>
+        <b-cell title="Tag 标签" isLink url="/pages/tag/index"></b-cell>
+      </b-cell-group>
+    </b-panel>
+  </view>
+</view>

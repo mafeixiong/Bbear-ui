@@ -1,0 +1,25 @@
+<view class="b-class b-tag {{util.getClass(color, type, checked, isChecked)}} {{isChecked ? '' : 'b-tag-disable'}}" bind:tap="onTap">
+  <slot></slot>
+</view>
+
+<wxs module="util">
+  module.exports = {
+    getClass: function(color, type, checked, isChecked) {
+      var initColorList = ['blue', 'green', 'red', 'yellow', 'default']
+      var temp = ''
+      var className = 'b-tag-'
+      if (initColorList.indexOf(color) > -1) {
+        temp = className + color
+      }
+      if (type === 'border') {
+        temp = className + color + '-border'
+      }
+      if (checked && isChecked) {
+        temp = className + color + '-checked'
+      } else if (isChecked && !checked) {
+        temp = (type === 'border' ? className + color + '-border' : className + 'none');
+      }
+      return temp
+    }
+  }
+</wxs>

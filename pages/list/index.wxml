@@ -1,0 +1,19 @@
+<b-panel class="cell-panel-demo">
+    <b-cell title="单行列表"></b-cell>
+</b-panel>
+
+<b-panel class="cell-panel-demo">
+    <b-cell title="单行列表" is-link value="详细信息"></b-cell>
+</b-panel>
+
+<b-panel class="cell-panel-demo">
+    <b-cell title="单行列表" label="附加描述" value="详细信息"></b-cell>
+</b-panel>
+
+<b-panel class="cell-panel-demo" title="带箭头的 cell">
+    <b-cell title="只显示箭头" is-link></b-cell>
+</b-panel>
+
+<b-panel class="cell-panel-demo">
+    <b-cell title="跳转到首页" linkType="switchTab" is-link url="/pages/home/home"></b-cell>
+</b-panel>

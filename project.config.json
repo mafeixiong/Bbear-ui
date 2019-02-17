@@ -1,0 +1,67 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.0",
+	"appid": "wx95c879cc9296e4db",
+	"projectname": "smallProgramComponents",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "button组件",
+					"pathName": "pages/button/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mask组件",
+					"pathName": "pages/mask/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "message全局提醒组件",
+					"pathName": "pages/message/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tag标签",
+					"pathName": "pages/tag/index"
+				}
+			]
+		}
+	}
+}

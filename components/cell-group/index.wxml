@@ -1,0 +1,3 @@
+<view class="b-class b-cell-group">
+    <slot></slot>
+</view>

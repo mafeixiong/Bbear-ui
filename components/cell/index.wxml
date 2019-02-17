@@ -1,0 +1,16 @@
+<view bind:tap="onTap" hover-class="b-cell-hover" class="b-class b-cell {{ isLink ? 'b-cell-access' : '' }} {{ isLastCell ? 'b-cell-last' : '' }}">
+  <view class="b-cell-icon">
+    <slot name="icon"></slot>
+  </view>
+  <view class="b-cell-bd">
+    <view wx:if="{{ title }}" class="b-cell-text">{{ title }}</view>
+    <view wx:if="{{ label }}" class="b-cell-desc">{{ label }}</view>
+    <slot></slot>
+  </view>
+  <view catchtap="navigateTo" class="b-cell-ft">
+    <block wx:if="{{value}}">{{ value }}</block>
+    <block wx:else>
+      <slot name="footer"></slot>
+    </block>
+  </view>
+</view>

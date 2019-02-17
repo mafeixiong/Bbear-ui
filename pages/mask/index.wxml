@@ -1,0 +1,2 @@
+<b-button bind:click="handleClick" type="primary">显示遮罩</b-button>
+<b-mask show="{{isShow}}" bind:close="closeMask" />

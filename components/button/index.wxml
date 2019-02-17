@@ -1,0 +1,11 @@
+<button class="b-class b-btn {{'b-btn-' + type}} {{'b-btn-' + size}} {{inline ? 'b-btn-inline' : ''}} {{long ? 'b-btn-long' : ''}} {{disabled ? 'b-btn-disabled' : ''}} {{loading ? 'b-btn-loading': ''}}" hover-class="b-btn-hover" open-type="{{openType}}"
+  style="border-radius:{{radius}}px"
+  app-parameter="{{appParameter}}"
+  bindtap="onTap"
+  bindcontact="bindcontact"
+  bindgetuserinfo="bindgetuserinfo"
+  bindgetphonenumber="bindgetphonenumber"
+  binderror="binderror">
+  <view class="b-btn-loading-inner" wx:if="{{loading}}"></view>
+  <slot></slot>
+</button>
