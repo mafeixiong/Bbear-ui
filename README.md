@@ -3,6 +3,3 @@
 
 ## 界面
 ![预览](https://github.com/mafeixiong/Bbear-ui/blob/master/images/demo/bbear-ui.png)
-
-## 作者网站
-http://www.mafeixiong.com
